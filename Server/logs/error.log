@@ -1,0 +1,332 @@
+2012-12-08 00:30:47,173 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 25, in before_request
+    g.db = conn[DB_NAME];
+NameError: global name 'conn' is not defined
+
+2013-01-24 22:15:45,680 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:15:46,003 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:15:46,085 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:31,064 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:31,376 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:31,510 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:31,974 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:32,213 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:32,319 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:44,268 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:44,539 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:44,709 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:45,055 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:45,297 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:45,458 ERROR: Exception on /favicon.ico [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1264, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1260, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1387, in preprocess_request
+    rv = func()
+  File "app.py", line 23, in before_request
+    g.conn = pymongo.Connection(host=DB_HOST);
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 381, in __init__
+    self.__find_node()
+  File "/Library/Python/2.7/site-packages/pymongo/connection.py", line 659, in __find_node
+    raise AutoReconnect(', '.join(errors))
+AutoReconnect: could not connect to localhost:27017: [Errno 61] Connection refused
+2013-01-24 22:16:59,883 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:17:01,239 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:17:09,539 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:17:57,255 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:17:58,055 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:18:06,375 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+2013-01-24 22:18:06,941 ERROR: Exception on / [GET] [in /Library/Python/2.7/site-packages/flask/app.py:1210]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1504, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1265, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1332, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
